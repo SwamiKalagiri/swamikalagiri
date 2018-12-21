@@ -3,7 +3,7 @@ version: 2
 docker_defaults: &docker_defaults
   docker:
     - image: circleci/node:8
-  working_directory: ~/project/jameswlane
+  working_directory: ~/project/swamikalagiri
 
 attach_workspace: &attach_workspace
   attach_workspace:

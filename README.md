@@ -1,5 +1,5 @@
 # Swami Kalagiri
-Swami R Kalagiri's personal npm card: "npx swamikalagiri" 
+Swami Kalagiri's personal npm card: "npx swamikalagiri" 
 
 ```bash
 npx swamikalagiri

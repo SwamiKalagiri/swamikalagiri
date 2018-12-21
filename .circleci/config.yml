@@ -3,9 +3,7 @@ version: 2
 docker_defaults: &docker_defaults
   docker:
     - image: circleci/node:8
-      environment:
-        CC_TEST_REPORTER_ID ENV: 06d6bd33bf16951a510340d18fea0d9d713944e1d59e3df57c26e350382ac43b
-  working_directory: ~/project/swamikalagiri
+ working_directory: ~/project/swamikalagiri
 
 attach_workspace: &attach_workspace
   attach_workspace:
@@ -128,7 +126,7 @@ jobs:
           command: |
             ./cc-test-reporter before-build
             npm run test:coverage:ci
-            ./cc-test-reporter after-build -r 06d6bd33bf16951a510340d18fea0d9d713944e1d59e3df57c26e350382ac43b
+            ./cc-test-reporter after-build --exit-code $?
             npm run test:coverage:codecov
       - store_artifacts:
           path: coverage

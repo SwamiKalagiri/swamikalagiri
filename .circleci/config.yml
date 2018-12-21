@@ -3,6 +3,8 @@ version: 2
 docker_defaults: &docker_defaults
   docker:
     - image: circleci/node:8
+      environment:
+        CC_TEST_REPORTER_ID ENV: 06d6bd33bf16951a510340d18fea0d9d713944e1d59e3df57c26e350382ac43b
   working_directory: ~/project/swamikalagiri
 
 attach_workspace: &attach_workspace
@@ -122,7 +124,6 @@ jobs:
       - run:
           name: Coverage
           environment:
-            CC_TEST_REPORTER_ID ENV: 06d6bd33bf16951a510340d18fea0d9d713944e1d59e3df57c26e350382ac43b
             JEST_JUNIT_OUTPUT: reports/jest/jest-test-results.xml
           command: |
             ./cc-test-reporter before-build

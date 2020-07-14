@@ -1,3 +1,3 @@
 # Swami Kalagiri
 
-![business card](preview.png)
+![business card](https://github.com/SwamiKalagiri/swamikalagiri/blob/master/preview.png)

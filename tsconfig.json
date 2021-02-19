@@ -17,7 +17,8 @@
     "types": [
       "node",
       "jest"
-    ]
+    ],
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "./typings/*.d.ts",

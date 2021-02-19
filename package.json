@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage -u",
     "clean": "rimraf lib coverage",
     "commit": "git-cz",
     "commitmsg": "opt --in commit-msg --exec \"commitlint -e $GIT_PARAMS\"",

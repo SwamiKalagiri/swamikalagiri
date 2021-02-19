@@ -1,5 +1,5 @@
 import * as boxen from 'boxen';
-import chalk from 'chalk';
+import * as chalk from 'chalk';
 
 // Define options for Boxen
 const options = {

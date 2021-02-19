@@ -1,2 +1,2 @@
-[![Node.js Package](https://github.com/SwamiKalagiri/swamikalagiri/actions/workflows/release-package.yml/badge.svg)](https://github.com/SwamiKalagiri/swamikalagiri/actions/workflows/release-package.yml)
+[![Verify workflow](https://github.com/SwamiKalagiri/swamikalagiri/actions/workflows/verify_workflow.yml/badge.svg)](https://github.com/SwamiKalagiri/swamikalagiri/actions/workflows/verify_workflow.yml)
 ![business card](https://github.com/SwamiKalagiri/swamikalagiri/blob/master/profile.png)

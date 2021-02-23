@@ -27,7 +27,7 @@ jobs:
           node-version: 12
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: echo "$GITHUB_TOKEN"    
+      - run: echo "$NODE_AUTH_TOKEN"    
       - run: npm ci
       - run: npm publish
         #env:

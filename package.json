@@ -97,6 +97,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/swamikalagiri"
+    "registry": "https://npm.pkg.github.com/"
   }
 }

@@ -28,6 +28,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/swamikalagiri
           repo-token: ${{ secrets.GITHUB_TOKEN }}
       - run: npm ci
+      - run: npm login
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
